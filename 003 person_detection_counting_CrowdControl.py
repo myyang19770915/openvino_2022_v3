@@ -6,6 +6,7 @@ import numpy as np
 ObjList=[]
 objIndex=0
 #物件追蹤程式
+# from 夜市小霸王 尤睿哲大大教學
 def TrackObj(newCenterList,ObjList1,objIndex):
     ObjListTemp=[]
     try:
