@@ -57,7 +57,7 @@ cap = cv2.VideoCapture(target)
 
 #儲存 mp4 格式 , 辨識後的結果儲存下來
 fourcc = cv2.VideoWriter_fourcc('m', 'p', '4', 'v')  # (*'mpv4') 用這種表示會error,無法存檔
-out = cv2.VideoWriter('output.mp4', fourcc, 30, (768, 432))  # frame size要一致，才可以存檔
+out = cv2.VideoWriter('output.mp4', fourcc, 30, (768, 432))  # frame size要一致， 才可以存檔
 
 while cap.isOpened():
     stime = time.time()
